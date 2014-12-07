@@ -104,8 +104,7 @@ public class ToJSON {
 								+ column_name);
 					}
 				}// end foreach
-				
-				System.out.println(">> got "+obj);
+							
 				json.put(obj);
 			}// end while
 		} catch (Exception e) {
